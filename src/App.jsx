@@ -1,10 +1,17 @@
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import './App.css'
 import ProductList from './components/common/ProductList'
+import Test from './components/features/Test'
+
+const queryClient = new QueryClient()
 
 function App() {
 
   return (
-    <ProductList />
+    <QueryClientProvider client={queryClient}>
+      <Test />
+    </QueryClientProvider>
+
   )
 }
 
