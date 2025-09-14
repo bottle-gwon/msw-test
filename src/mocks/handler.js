@@ -53,7 +53,7 @@ const dummyProduct = {
 export const handler = [
   http.get('/api/v1/products', () => {
 
-    return HttpResponse.json([dummyProduct])
+    return HttpResponse.json(dummyProduct)
   })
 ]
 

@@ -1,5 +1,4 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import './App.css'
 import ProductList from './components/common/ProductList'
 import Test from './components/features/Test'
 
