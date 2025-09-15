@@ -5,7 +5,7 @@ const dummyProduct = {
     items: [
     { product_id: 1, name: "베이직 티셔츠", price: 15000, category_id: 11, is_active: true, created_at:
       "2024-01-01T10:00:00Z" },
-    { product_id: 2, name: "슬림핏 청바지", price: 45000, category_id: 12, is_active: true, created_at:
+    { product_id: 2, name: "슬림핏 청바지", price: 45000, category_id: 12, is_active: false, created_at:
       "2024-01-02T11:00:00Z" },
     { product_id: 3, name: "오버사이즈 후드티", price: 32000, category_id: 11, is_active: true, created_at:
       "2024-01-03T12:00:00Z" },
